@@ -857,6 +857,9 @@ margin: 0 auto ;
     margin-top: -77px;
 
 }	
+.f-click-mask{
+	padding-top: 35px;
+}
 .f-dialog a,.f-dialog1 a{
 	background: #1b041b;
     width: 61px;

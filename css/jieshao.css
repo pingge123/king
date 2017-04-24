@@ -97,6 +97,7 @@ body,
     left: 50%;
     margin-left: -85px;
     top: 576px;
+    opacity: 0;
 }
 .chakan02{
 	position: absolute;
@@ -149,6 +150,7 @@ body,
 	height: 28px;
     left: 50%;
     top: 576px;
+     opacity: 0;
 }
 .banner04{
 	position: absolute;
@@ -166,6 +168,12 @@ body,
     left: 50%;
     top: 576px;
     margin-left: -126px;
+     opacity: 0;
+}
+.banner061{
+	position: relative;
+	top: -27px;
+	left: 1px;
 }
 .banner05{
 	position: absolute;
@@ -183,6 +191,7 @@ body,
     margin-left: -111px;
     left: 50%;
     top: 576px;
+     opacity: 0;
 }
 .banner06{
 	background: url(../img/wjieshao/bg_sec06_main.png)   ;
@@ -199,6 +208,7 @@ body,
     line-height: 30px;
     text-align: center;
     padding-top: 5px;
+    transform: translateY(-20px);
 }
 .name06{
 	position:absolute;
@@ -208,6 +218,7 @@ body,
     margin-left: -78px;
     left: 50%;
     top: 576px;
+     opacity: 0;
 }
 .footer{
 	width: 100%;
@@ -322,16 +333,12 @@ body,
 	
 }
 @keyframes chakan029{
-	0%, 100%{
+	0%{
+		transform: translateY(60px);
+	}
+
+	100%{
 		transform: translateY(1px);
 		opacity: 1;
-	}
-	0.0001%{
-		transform: translateY(80px);
-		opacity: 0.2;
-	
-	50%{
-		transform: translateY(30px);
-		opacity: 0.5;
 	}
 }
