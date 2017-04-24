@@ -1,0 +1,277 @@
+body,ul,li,h1,h2,h3,h4,h5,h6,p,html{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size: inherit;
+	font-weight: normal;
+}
+body {
+	font-family: "microsoft yahei";
+	position: relative;
+}
+ul li{
+	list-style: none;			
+}
+a {
+	text-decoration: none;
+}
+img {
+	display: inline-block;
+}
+.relative {
+	position: relative;
+}
+.clearfix {
+	clear: both;
+}
+.f-l {
+	float: left;
+}
+.f-r {
+	float: right;
+}
+.carousel-indicators li {
+	display: inline-block;
+	width: 20%;
+	height: 47px;
+	margin: 0;
+	text-indent: 0px!important;
+	cursor: pointer;
+	line-height: 47px;
+	background-color: #000;
+	border: none;
+	color: #a3a3a3;
+	font-size: 14px!important;
+	font-size: 20px;
+	float: left;
+	border-radius: 0;
+}
+
+.item a {
+	display: block;
+	width: 100%;
+	height: 336px;
+	position: absolute;
+	top: 0;
+}
+
+.carousel-indicators .active {
+	width: 20%;
+	height: 47px;
+	margin: 0;
+	background-color: #288ed9;
+	color: white;
+	font-size: 20px;
+	float: left;
+	border-radius: 0;
+}
+
+@media only screen and (min-width: 768px) {
+	.carousel-indicators {
+		bottom: 0;
+	}
+}
+
+.carousel-indicators {
+	position: absolute;
+	bottom: -56px;
+	left: 30%;
+	z-index: 15;
+	width: 100%;
+	padding-left: 0;
+	text-align: center;
+	list-style: none;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.f-Second{
+	background: url(../img/home-img/beijing.jpg)no-repeat;
+	margin-top: 10px;
+	padding-top: 30px;
+}
+.f-Second-icon i{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background: url(../img/home-img/sprite.png)no-repeat;
+	background-position: 0 -4px;
+	vertical-align: middle;
+}
+.f-Second-icon a{
+	font-size: 17px;
+	color: #363636;
+	text-decoration: underline;
+	cursor: pointer;
+	margin-right:8px;
+}
+.f-Second-icon span{
+	font-size: 17px;
+	color: #363636;
+	margin-right: 8px;
+}
+.f-black{
+	display: block;
+	width: 22px;
+	height: 22px;
+	background: url(../img/home-img/icon_hero.png)no-repeat;
+	margin-top: 50px;
+}
+.f-fristul{
+	margin-top: 30px;
+}
+.f-fristul li{
+	float: left;
+	width: 33%;
+	border-bottom: 3px solid #D4D4D4;
+}
+.f-fristul .f-active-a{
+	border-bottom: 3px solid #3589DD;
+    border-radius: 0 0 3px 3px;
+}
+.f-fristul li a{
+	display: block;
+    width: 100%;
+    line-height: 32px;
+    text-align: center;
+    color: #363636;
+    font-size: large;
+}
+.f-fristul .f-active-a a{
+	color: #3589DD;
+}
+.f-box{
+	clear: both;
+	width: 100%;
+	min-height: 500px;
+	border: 1px solid #D4D4D4;
+	border-top: none;
+	padding-bottom: 20px;
+}
+.f-box-box{
+	width: 1140px;
+	min-height:600px ;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+.f-box-ul-all{
+	width: 100%;
+	height: 106px;
+	background-color: #EFEFEF;
+	margin-top: 20px;
+	position: relative;
+}
+.f-box-ul1{
+	width: 80px;
+	height: 106px;
+}
+.f-box-ul1 ul li:nth-child(1){
+	border-radius: 5px 0 0 0;
+}
+.f-box-ul1 ul li:nth-child(2){
+	border-radius: 0 0 0 5px;
+}
+.f-box-ul1 ul li{
+	width: 80px;
+    height: 53px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #2C88E2;
+    color: #EFEFEF;
+    line-height: 53px;
+}
+input[type="radio" i]{
+	display: inline-block;
+	width: 23px;
+	height: 23px;
+	border: 1px solid #B3B3B3;
+	vertical-align: middle;
+}
+.radio-inline{
+	font-size: 16px;
+}
+.f-box-ul2 {
+	width: 800px;
+	height: 106px;
+}
+.f-box-ul2 ul li{
+	width: 105px;
+	height: 22px;
+	float: left;
+}
+.f-box-ul2 ul{
+	display: block;
+	padding-top: 20px;
+}
+.f-input{
+	position: absolute;
+	top: 50px;
+	right: 10px;
+	width: 220px;
+	height: 46px;
+	border: 1px solid #D2D2D2;
+}
+.f-input>input{
+	width: 163px;
+	color: #666;
+}
+.f-search{
+	border: none;
+	background-color: #EFEFEF;
+	font-size: 12px;
+	line-height: 46px;
+	color: #D5D5D5;
+	height: 44px;
+	padding-left: 7px;
+}
+.f-input::after{
+	content: "|";
+	color: #D5D5D5;
+}
+.f-input a{
+	position:absolute;
+	top: 14px;
+	right: 12px;
+	display: inline-block;
+	width: 25px;
+	height: 22px;
+	background: url(../img/home-img/vl_search_icon.png)no-repeat;
+}
+.f-image-set{
+	clear: both;
+}
+.f-image-set img{
+	width: 83px;
+	height: 83px;
+	border: 2px solid #258DF2;
+	border-radius: 10px 0 10px 0;
+	display: block;
+}
+.f-image-set li{
+	float: left;
+	margin-right: 25px;
+	margin-top: 40px;
+}
+.f-image-set a{
+	display: inline-block;
+	width: 87px;
+	height: 113px;
+	text-align: center;
+}
+.f-image-set li:nth-child(1),
+.f-image-set li:nth-child(11),
+.f-image-set li:nth-child(21),
+.f-image-set li:nth-child(31),
+.f-image-set li:nth-child(41),
+.f-image-set li:nth-child(51),
+.f-image-set li:nth-child(61){
+	margin-left: 20px;
+}
+input{
+	outline: none;
+}
+.f-This-week,.f-oo{
+	display: none;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="utf-8">
+		<title> 王者荣耀版本介绍</title>
+		<link rel="icon" type="img/jpg" href="home-img/hehe.jpg" />
+		<link rel="stylesheet" href="css/jquery.fullPage.css">
+		<link rel="stylesheet" href="css/jieshao.css" />
+		<style>
+			.right>ul>li{
+				    width: 65px;
+				    height: 93px;
+                    margin-top: 24px;
+			}
+			.right>ul>li a:nth-child(1){
+				    background: url(img/wjieshao/nav_on01.png)  no-repeat 0 0;
+				   
+            }
+		</style>
+	</head>
+
+	<body>
+	<div class="container01">
+		<div class="wrap01"> </div>
+		<div class="wrap02"></div>
+		<a href="home.html" class="logo"></a>
+		<div id="dowebok">
+			
+			<!--第一屏-->
+			<div class="section active">
+				<img class="banner01" src="img/wjieshao/banner01.png"/>
+				<div class="niutou"></div>
+				<div class="jiantou01"></div>
+				<div class="shugang01"></div>
+			</div>
+			<!--第二屏-->
+			<div class="section page02">
+				<div class="top-shugang"></div>
+				<img  class="banner02" src="img/wjieshao/banner02.png" />
+				<div class="name02"></div>
+				<a href="#" class="chakan02"></a>
+				<div class="henggang02"></div>
+				<div class="jiantou02"></div>
+				<div class="shugang02"></div>
+			</div>
+			<!--第三屏-->
+			<div class="section page03">
+				<div class="top-shugang"></div>
+				<img class="banner03"  src="img/wjieshao/banner03.png" />
+				<div class="name03"></div>
+				<a href="#" class="chakan02"></a>
+				<div class="henggang02"></div>
+				<div class="jiantou02"></div>
+				<div class="shugang02"></div>
+			</div>
+			<!--第四屏-->
+			<div class="section  page04">
+				<div class="top-shugang"></div>
+				<img  class="banner04" src="img/wjieshao/banner04.png" />
+				<div class="name04"></div>
+				<a href="#" class="chakan02"></a>
+				<div class="henggang02"></div>
+				<div class="jiantou02"></div>
+				<div class="shugang02"></div>
+			</div>
+			<!--第五屏-->
+			<div class="section page05">
+				<div class="top-shugang"></div>
+				<img class="banner05" src="img/wjieshao/banner05.png" />
+				<div class="name05"></div>
+				<a href="#" class="chakan02"></a>
+				<div class="henggang02"></div>
+				<div class="jiantou02"></div>
+				<div class="shugang02"></div>
+			</div>
+			<!--第六屏-->
+			<div class="section page06">
+				<div class="top-shugang"></div>
+				<div class="banner06" >
+					<p class="chenghao01">  荣耀称号</p>
+					<img class="banner061" src="img/wjieshao/banner06.jpg"/>
+					<a href="#"  class="prev"></a>
+					<a href="#" class="next"></a>
+				</div> 
+				<div class="name06"></div>
+				<a href="#" class="chakan02"></a>
+				<div class="henggang02"></div>
+				<div class="jiantou02"></div>
+				<div class="shugang02"></div>
+			</div>
+			<!--半屏-->
+			<div class="section footer " style="background-color: transparent;"> 
+				<div class="footer00">	
+					<p>腾讯互动娱乐 | 服务条款 | 广告服务 | 腾讯游戏招聘 | 腾讯游戏客服 | 游戏地图 | 游戏活动 | 成长守护平台 | 商务合作 | 网站导航</p>
+					<p>COPYRIGHT © 1998 – 2017 TENCENT. ALL RIGHTS RESERVED.</p>
+					<p><a href="#">腾讯公司 版权所有 G5513模仿		</a></p>
+				</div>
+			</div>
+		</div>
+	</div>	
+	
+	
+	
+	
+	
+	
+	
+	
+	<a href="http://www.dowebok.com/" style="display: none;">dowebok</a>
+	<a href="http://www.dowebok.com/77.html" style="display: none;">jQuery全屏滚动插件fullPage.js</a>
+	
+	
+		<script src="js/jquery-1.8.3.min.js"></script>
+		<script src="js/jquery.fullPage.min.js"></script>
+		<script>
+		$(function(){
+			$('#dowebok').fullpage({
+				afterLoad:function(anchorLink,index) {
+			    		if(index == 2) {
+			    			$(".page02").addClass("animated");
+			    		}
+			    		if(index == 3) {
+			    			$(".page03").addClass("animated");
+			    		}
+			    		if(index == 4) {
+			    			$(".page04").addClass("animated");
+			    		}
+			    		if(index == 5) {
+			    			$(".page05").addClass("animated");
+			    		}
+			    		if(index == 6) {
+			    			$(".page06").addClass("animated");
+			    		}
+			    	}
+			});
+		});
+		</script>
+	</body>
+</html>

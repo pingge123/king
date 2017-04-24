@@ -1,0 +1,337 @@
+html,
+body,
+.container01{
+	width: 100%;
+	height: 100%;
+}
+
+.wrap01{
+	position: absolute;
+	float: left;
+	background: url(../img/wjieshao/wrap01.jpg)  no-repeat 50% 0;
+	width: 100%;
+    height: 1000px;
+	position: absolute;
+    left: 0;
+    top: 0;
+	
+}
+.wrap02{
+	position: absolute;
+	float: left;
+	background: url(../img/wjieshao/wrap02.jpg)  no-repeat 50% 516px;
+    width: 100%;
+    height: 1000px;
+    
+}	
+.logo{
+	position: absolute;
+	background:url(../img/wjieshao/logo-ji.png) no-repeat 0 0 ;
+    width: 135px;
+    height: 101px;
+    left: 50%;
+    margin-left: -560px;
+    top: 23px;
+    z-index: 100;
+}
+.section { 
+	position: relative;
+	text-align: center; 
+	background-image: url(../img/wjieshao/mohu-wrap00.png);
+}
+.banner01{
+	position: absolute;
+	width: 759px;
+    height: 332px;
+    top: 217px;
+    left: 50%;
+    margin-left: -388px;
+}
+.niutou{
+	position: absolute;
+	background: url(../img/wjieshao/niujao.png) no-repeat;
+    width: 242px;
+    height: 237px;
+    left: 50%;
+    margin-left: -121px;
+    top: 539px;
+}
+.jiantou01{
+	position:absolute;
+	background: url(../img/wjieshao/pic_xl.png);
+	width: 12px;
+    height: 12px;
+    left: 50%;
+    margin-left: -5px;
+    top: 789px;
+}
+.shugang01{
+	position: absolute;
+	background: url(../img/wjieshao/shugang.png) no-repeat;
+	width: 1px;
+    height: 128px;
+    left: 50%;
+    top: 818px;
+}
+.top-shugang {
+	position: absolute;
+	width: 1px;
+    height: 136px;
+    background: #695c6c;
+    left: 50%;
+    top: 0;
+}
+.banner02{
+	position: absolute;
+	width: 667px;
+	height: 487px;
+	left: 50%;
+    margin-left: -335px;
+    top: 93px;
+}
+.name02{
+	position: absolute;
+	background: url(../img/wjieshao/logo-ji.png) no-repeat  -150px 0;
+    width: 180px;
+    height: 35px;
+    left: 50%;
+    margin-left: -85px;
+    top: 576px;
+}
+.chakan02{
+	position: absolute;
+	background: url(../img/wjieshao/logo-ji.png) no-repeat  0px -98px;
+    width: 510px;
+    height: 63px;
+    left: 50%;
+    margin-left: -239px;
+    top: 647px;
+}
+.henggang02{
+	position: absolute;
+	background: url(../img/wjieshao/logo-ji.png) no-repeat -73px -172px;
+    width: 124px;
+    height: 8px;
+    left: 50%;
+    margin-left: -62px;
+    top: 728px;
+}
+.jiantou02{
+	position: absolute;
+	background: url(../img/wjieshao/pic_xl.png) no-repeat ;
+	width: 12px;
+    height: 12px;
+    left: 50%;
+    margin-left: -6px;
+    top: 750px;
+}
+.shugang02{
+	position: absolute;
+	background: #6a5841;
+    width: 1px;
+    height: 180px;
+    left: 50%;
+    bottom: 0;
+}
+.banner03{
+	position: absolute;
+	width: 838px;
+	height: 567px;
+	left: 50%;
+    margin-left: -430px;
+    top: 40px;
+}
+.name03{
+	position: absolute;
+	background: url(../img/wjieshao/logo-ji.png) no-repeat  -156px -36px;
+    width: 118px;
+    margin-left: -59px;
+	height: 28px;
+    left: 50%;
+    top: 576px;
+}
+.banner04{
+	position: absolute;
+	width: 790px;
+    height: 527px;
+    left: 50%;
+    margin-left: -353px;
+    top: 56px;
+}
+.name04{
+	position: absolute;
+	background: url(../img/wjieshao/logo-ji.png) no-repeat  -156px -66px;
+    width: 252px;
+    height: 28px;
+    left: 50%;
+    top: 576px;
+    margin-left: -126px;
+}
+.banner05{
+	position: absolute;
+	width: 702px;
+    height: 322px;
+    left: 50%;
+    margin-left: -420px;
+    top: 206px;
+}
+.name05{
+	position: absolute;
+	background: url(../img/wjieshao/logo-ji.png)   no-repeat  -127px -216px;
+    width: 223px;
+    height: 28px;
+    margin-left: -111px;
+    left: 50%;
+    top: 576px;
+}
+.banner06{
+	background: url(../img/wjieshao/bg_sec06_main.png)   ;
+	width: 556px;
+    height: 322px;
+    position: absolute;
+    left: 50%;
+    margin-left: -278px;
+    top: 199px;
+}
+.chenghao01{
+	font-size: 22px;
+    color: #a38356;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 5px;
+}
+.name06{
+	position:absolute;
+	background: url(../img/wjieshao/logo-ji.png)  no-repeat  -151px -183px;
+    width: 171px;
+    height: 28px;
+    margin-left: -78px;
+    left: 50%;
+    top: 576px;
+}
+.footer{
+	width: 100%;
+    min-width: 1000px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 19px;
+    color: #fff;
+    position: absolute;
+    margin-top: 1000px;
+    background: #1b1e22;
+}
+.footer{
+	margin: 0 auto;
+    padding: 30px;
+    width: 940px;
+}
+.banner01{
+	animation:banner019  0.7s ease-in;
+}
+.jiantou01,
+.jiantou02,
+.animated .chakan02,
+.animated .banner02,
+.animated .banner03,
+.animated .banner04,
+.animated .banner05,
+.animated .banner06{
+	animation-name: jiantou019;
+	animation-delay: 0s;
+	animation-duration:0.8s ;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+}
+.animated .chakan02,
+.animated .banner02,
+.animated .banner03,
+.animated .banner04,
+.animated .banner05,
+.animated .banner06{
+	animation-iteration-count:1;
+}
+
+.animated .name02,
+.animated .name03,
+.animated .name04,
+.animated .name05,
+.animated .name06{
+	animation-name: chakan029;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: initial;
+    animation-direction: initial;
+    animation-fill-mode: both;
+    animation-play-state: initial;
+}
+.animated .chakan02{
+	animation-delay: 0.3s;
+	 animation-duration: 1.5s;
+}
+
+@keyframes banner019{
+	0% ,100%{
+		transform: scale(1.2);
+		opacity: 1;
+	}
+	30%{
+		transform: scale(2.5);
+		opacity: 0.9;
+	}
+	40%{
+		transform: scale(3);
+		opacity: 0.8;
+	}
+	60%{
+		transform: scale(3);
+		opacity: 0.4;
+	}
+	70%{
+		transform: scale(1);
+		opacity: 0;
+	}
+	80%{
+		transform: scale(2.6);
+		opacity: 0.9;
+	}
+	
+}
+
+@keyframes jiantou019{
+	0%, 100%{
+		transform: translateY(1px);
+	}
+	50%{
+		transform: translateY(10px);
+	}
+}
+@-moz-keyframes banner000{
+	0%{
+		transform: translateY(-1px);	
+	}
+	10%{
+		transform: translateY(-100px);
+	}
+	50%{
+		transform: translateY(-200px);
+	}
+	100%{
+		transform: translateY(-1px);
+	}
+	
+}
+@keyframes chakan029{
+	0%, 100%{
+		transform: translateY(1px);
+		opacity: 1;
+	}
+	0.0001%{
+		transform: translateY(80px);
+		opacity: 0.2;
+	
+	50%{
+		transform: translateY(30px);
+		opacity: 0.5;
+	}
+}
